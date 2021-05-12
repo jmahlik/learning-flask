@@ -1,0 +1,5 @@
+.terraform*
+*venv*
+.vim*
+*.tfstate*
+

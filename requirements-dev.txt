@@ -1,0 +1,6 @@
+boto3>=1.17.68
+black
+flake8
+mypy
+pytest
+tox
