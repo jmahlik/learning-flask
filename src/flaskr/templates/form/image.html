@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}What a nice looking picture!{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<p> {{ image }} </p>
+<img src="{{ image }}"/>
+{% endblock %}

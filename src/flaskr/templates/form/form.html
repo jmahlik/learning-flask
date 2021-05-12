@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Enter an Image{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<p> Because I was too lazy to implement a selector, the options are otter, squirrel, armadillo </p>
+  <form method="post">
+    <label for="image">Image</label>
+    <input name="image" id="image" required>
+    <input type="submit" value="Show Image">
+  </form>
+{% endblock %}
